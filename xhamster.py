@@ -12,14 +12,14 @@ headers = {
     'Sec-Fetch-Site': 'same-site',
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
     'accept': 'application/json',
-    'authorization': 'Bearer 1717445317619EQzUr8aRU4hLoQYNSP6npv3CFEPjAIavAaXuAKOdkSCPJ4QjBBMO51bQK2VbcuBn811097437',
+    'authorization': 'Bearer 1717581364428bKGCXvsCJNbdl8MzPoXWkHDO6Vw9jyOESsctVHy6aDFz51J65l7XPhrtWcm0CreR7394421163',
     'content-type': 'application/json',
     'sec-ch-ua': '"Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"',
     'sec-ch-ua-mobile': '?0',
     'sec-ch-ua-platform': '"Windows"'
 }   
 data_for_taps = {
-    "count": 1,
+    "count": 10,
     "availableTaps": 0,
     "timestamp": int(time.time())
 }
@@ -45,5 +45,5 @@ while True:
         print(f'Error: Status Code {response.status_code}')
         print(response.reason)
         print()
-        exit() 
-    #time.sleep(2)
+        #exit() 
+    time.sleep(2)
