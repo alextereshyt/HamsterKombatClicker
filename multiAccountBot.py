@@ -95,6 +95,8 @@ def process_account(auth_token):
 
 
 def main():
+    print("   _  __ __                         __            ____        __ \r\n  | |/ // /_  __  ______ ___  _____/ /____  _____/ __ )____  / /_\r\n  |   // __ \\/ / / / __ `__ \\/ ___/ __/ _ \\/ ___/ __  / __ \\/ __/\r\n /   |/ / / / /_/ / / / / / (__  ) /_/  __/ /  / /_/ / /_/ / /_  \r\n/_/|_/_/ /_/\\__,_/_/ /_/ /_/____/\\__/\\___/_/  /_____/\\____/\\__/  \r\n                                                                 ")
+    print("V1.0                                            Created by LaLeX")
     with ThreadPoolExecutor(max_workers=len(authorizations)) as executor:
         while True:
             executor.map(process_account, authorizations)
