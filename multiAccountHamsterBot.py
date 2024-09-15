@@ -22,12 +22,7 @@ headers_template = {
 }
 
 authorizations = {
-    #"main": "Bearer 1717593688842WqjrvsZzb7x3ZS3oPFurFYJKFitshCdbllUNcfZtOgOsJoLnjTJlcvDvjdEFHHMQ811097437", 
-    "de1 splash": "Bearer 1717581364428bKGCXvsCJNbdl8MzPoXWkHDO6Vw9jyOESsctVHy6aDFz51J65l7XPhrtWcm0CreR7394421163", 
-    "de2": "Bearer 171758805251307GgcWgqIkEEO5rb3Y7HRJhdxgumGFqudLV8XsnHSKzoxydG3qx3VnioVsSdMisu7268318527", 
-    "de3": "Bearer 1717588319461LSvtcKMFcFOQTZ7rwObeVqItZpT3WfadgFi4KhJuGvM0A0ybYzj2qxuuyMAAMpEN7423052397", 
-    "leva": "Bearer 17176001519425DY8SEYHv9XgReyo2rU4pz9MuWMJh6RjpZmpt4aCWsw9pHXp8xKx2Pv1fAvfBveQ1613514064", 
-    "nazar": "Bearer 1717600670064NyHbMRtYtXO1BpBUVZZCfF9TLP0wMqD9FNnALD0Wnx0hLsB77XxbP5cz8rPcDLQc6030860255",
+    #"name": "your token", 
 }
 
 data_for_taps = {"count": 300, "availableTaps": 0, "timestamp": ""}
